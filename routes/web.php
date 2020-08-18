@@ -16,3 +16,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/auth/oauth/{provider}', 'AuthController@authenticate');
+Route::get('/auth/logout', 'AuthController@logout');
