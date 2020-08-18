@@ -64,6 +64,7 @@
         </style>
     </head>
     <body>
+
         <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">
@@ -81,18 +82,17 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    Many Auth App
                 </div>
+                <p>Clique em um dos provedores abaixo e faça login na aplicação</p>
 
                 <div class="links">
-                    <a href="https://laravel.com/docs">Docs</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://blog.laravel.com">Blog</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://vapor.laravel.com">Vapor</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <a target="__blank" href="https://github.com/login/oauth/authorize?client_id={{env('GITHUB_OAUTH_ID')}}&redirect_uri={{env('GITHUB_REDIRECT_URI')}}&scopes={{env('GITHUB_OAUTH_SCOPES')}}">Github</a>
+                    <a target="__blank" href="https://id.twitch.tv/oauth2/authorize?client_id={{env('TWITCH_OAUTH_ID')}}&redirect_uri={{env('TWITCH_REDIRECT_URI')}}&response_type=code&scope={{env('TWITCH_OAUTH_SCOPES')}}">Twitch</a>
+                    <a target="__blank" href="https://accounts.spotify.com/authorize?client_id={{env('SPOTIFY_OAUTH_ID')}}&redirect_uri={{env('SPOTIFY_REDIRECT_URI')}}&response_type=code&scope={{env('SPOTIFY_OAUTH_SCOPES')}}">Spotify</a>
+                    @if(Auth::check())
+                        <a href="/auth/logout">Sair</a>
+                    @endif
                 </div>
             </div>
         </div>

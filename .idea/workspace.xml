@@ -1,15 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="a641383a-e60a-4c8e-8ab3-fdc54a683754" name="Default Changelist" comment="" />
+    <list default="true" id="a641383a-e60a-4c8e-8ab3-fdc54a683754" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Repositories/AuthRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Services/SpotifyService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -125,7 +141,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -141,11 +164,42 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1597704243819</updated>
-      <workItem from="1597704244929" duration="684000" />
+      <workItem from="1597704244929" duration="11810000" />
+      <workItem from="1597722009396" duration="7630000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2515" y="184" width="419" height="657" key="#com.intellij.ide.util.MemberChooser" timestamp="1597727395644">
+      <screen x="1920" y="0" width="2560" height="1080" />
+    </state>
+    <state x="2515" y="184" width="419" height="657" key="#com.intellij.ide.util.MemberChooser/1920.0.2560.1080/0.27.1920.1053@1920.0.2560.1080" timestamp="1597727395644" />
+    <state x="2462" y="270" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1597727453596">
+      <screen x="1920" y="0" width="2560" height="1080" />
+    </state>
+    <state x="2462" y="270" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/1920.0.2560.1080/0.27.1920.1053@1920.0.2560.1080" timestamp="1597727453596" />
+    <state x="2381" y="175" width="711" height="593" key="NewPhpClassDialog" timestamp="1597727370672">
+      <screen x="1920" y="0" width="2560" height="1080" />
+    </state>
+    <state x="2381" y="175" width="711" height="593" key="NewPhpClassDialog/1920.0.2560.1080/0.27.1920.1053@1920.0.2560.1080" timestamp="1597727370672" />
+    <state x="2525" y="434" width="399" height="157" key="NewPhpFileDialog" timestamp="1597710592511">
+      <screen x="1920" y="0" width="2560" height="1080" />
+    </state>
+    <state x="2525" y="434" width="399" height="157" key="NewPhpFileDialog/1920.0.2560.1080/0.27.1920.1053@1920.0.2560.1080" timestamp="1597710592511" />
+    <state x="2458" y="246" width="540" height="540" key="StructurePopup" timestamp="1597723607447">
+      <screen x="1920" y="0" width="2560" height="1080" />
+    </state>
+    <state x="2458" y="246" width="540" height="540" key="StructurePopup/1920.0.2560.1080/0.27.1920.1053@1920.0.2560.1080" timestamp="1597723607447" />
+    <state x="2393" y="233" key="run.anything.popup" timestamp="1597728426488">
+      <screen x="1920" y="0" width="2560" height="1080" />
+    </state>
+    <state x="2393" y="233" key="run.anything.popup/1920.0.2560.1080/0.27.1920.1053@1920.0.2560.1080" timestamp="1597728426488" />
+    <state x="2392" y="242" width="672" height="678" key="search.everywhere.popup" timestamp="1597727303480">
+      <screen x="1920" y="0" width="2560" height="1080" />
+    </state>
+    <state x="2392" y="242" width="672" height="678" key="search.everywhere.popup/1920.0.2560.1080/0.27.1920.1053@1920.0.2560.1080" timestamp="1597727303480" />
   </component>
 </project>
